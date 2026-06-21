@@ -1,0 +1,80 @@
+{"key": "bar-exam-82|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}
+{"key": "bar-exam-83|Lexis", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "bar-exam-86|Pract. Law", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "bar-exam-88|Westlaw", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "bar-exam-90|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "bar-exam-93|Lexis", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "bar-exam-95|Pract. Law", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "bar-exam-96|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "changes-in-law-71|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "changes-in-law-73|Lexis", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "changes-in-law-74|Pract. Law", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "changes-in-law-75|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}
+{"key": "circuit-splits-51|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "circuit-splits-52|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "circuit-splits-54|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "circuit-splits-55|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "circuit-splits-57|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "circuit-splits-62|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}
+{"key": "circuit-splits-66|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "circuit-splits-67|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "doctrine-test-173|GPT-4", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "doctrine-test-176|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "doctrine-test-178|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "doctrine-test-180|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "false-holding-statements-103|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "false-holding-statements-105|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "false-holding-statements-108|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "false-holding-statements-110|Westlaw", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "local-rules-192|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "local-rules-194|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "local-rules-195|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "local-rules-198|Westlaw", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-author-142|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "metadata-author-147|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-author-148|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-author-149|Westlaw", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-citation-121|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "metadata-citation-125|Lexis", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-citation-126|Pract. Law", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "metadata-citation-128|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-year-133|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "metadata-year-134|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-year-135|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "metadata-year-136|Westlaw", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "question-with-irrelevant-context-181|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "question-with-irrelevant-context-184|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "question-with-irrelevant-context-188|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "question-with-irrelevant-context-189|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}
+{"key": "rule-qa-32|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "rule-qa-33|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}
+{"key": "rule-qa-34|Pract. Law", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "rule-qa-35|Westlaw", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "rule-qa-41|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "rule-qa-44|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "rule-qa-48|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "rule-qa-49|Westlaw", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "scalr-1|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "scalr-11|Lexis", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 1}
+{"key": "scalr-13|Pract. Law", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-14|Westlaw", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "scalr-16|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-17|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}
+{"key": "scalr-18|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-2|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-21|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-27|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-30|Pract. Law", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "scalr-5|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "treatment-doctrinal-agreement-152|GPT-4", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 0}
+{"key": "treatment-doctrinal-agreement-153|Lexis", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "treatment-doctrinal-agreement-159|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "treatment-doctrinal-agreement-160|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "treatment-doctrinal-agreement-162|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "treatment-doctrinal-agreement-163|Lexis", "human_label": "Hallucination", "human_hall": 1, "judge_hall": 1}
+{"key": "treatment-doctrinal-agreement-167|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "treatment-doctrinal-agreement-168|Westlaw", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "whimsical-holding-statements-112|GPT-4", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "whimsical-holding-statements-113|Lexis", "human_label": "Accurate", "human_hall": 0, "judge_hall": 0}
+{"key": "whimsical-holding-statements-114|Pract. Law", "human_label": "Incomplete", "human_hall": 0, "judge_hall": 0}
+{"key": "whimsical-holding-statements-116|Westlaw", "human_label": "Accurate", "human_hall": 0, "judge_hall": 1}

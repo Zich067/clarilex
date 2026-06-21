@@ -1,0 +1,32 @@
+chromadb>=0.5.0,<0.6.0
+sentence-transformers>=3.0.0,<4.0.0
+transformers>=4.40.0,<5.0.0
+tokenizers>=0.20.0,<0.21.0
+huggingface-hub>=0.24.0,<1.0.0
+openai>=1.40.0
+python-dotenv>=1.0.0
+pdfplumber>=0.11.0
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+pandas>=2.2.0
+numpy>=1.26.0
+tqdm>=4.66.0
+
+# 檢索評估/分析對照組(§6.2 BM25 對照、KG 共引分析)
+rank-bm25>=0.2.2
+ckip-transformers>=0.3.0  # 中研院繁中斷詞(取代大陸 jieba,守住非大陸來源原則)
+networkx>=3.0             # 判決法條共引知識圖譜(社群偵測/中心性)
+
+# Web API
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+sse-starlette>=2.1.0
+pydantic>=2.7.0
+
+# 論文 docx 建置(scripts/build_thesis_docx.py + 公式/程式碼 PNG 渲染)
+python-docx>=1.1.0
+matplotlib>=3.8.0
+Pillow>=10.0.0
+pygments>=2.17.0
+docx2pdf>=0.1.8  # docx→PDF(需 Word/LibreOffice)

@@ -1,0 +1,26 @@
+# 完整系統容器編排（§4.10.3）。於專案根目錄執行：
+#   docker compose -f docs/docker-compose.yml up -d --build
+# Dockerfile 分置於各服務目錄（../system、../web）。
+services:
+  api:
+    build:
+      context: ../system
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../.env
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ../system/indexes:/app/indexes
+      - ../system/data:/app/data
+
+  web:
+    build:
+      context: ../web
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_BASE: http://api:8000
+    depends_on:
+      - api

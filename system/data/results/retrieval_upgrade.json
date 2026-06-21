@@ -1,0 +1,18 @@
+{
+  "n": 20,
+  "pool": 30,
+  "embed": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "reranker": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+  "arctic_only": {
+    "recall@1": 0.6,
+    "recall@3": 0.75,
+    "recall@5": 0.825
+  },
+  "arctic_rerank": {
+    "recall@1": 0.6,
+    "recall@3": 0.725,
+    "recall@5": 0.775
+  },
+  "mrr_arctic": 0.7414,
+  "mrr_rerank": 0.7153
+}

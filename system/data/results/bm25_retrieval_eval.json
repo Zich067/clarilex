@@ -1,0 +1,5207 @@
+{
+  "retriever": "BM25Okapi + CKIP(中研院繁中斷詞)",
+  "corpus": "laws (與語意檢索同源 chunk)",
+  "n_corpus": 2429,
+  "n_queries": 100,
+  "by_k": {
+    "1": {
+      "n": 100,
+      "recall_at_k": 0.485,
+      "precision_at_k": 0.53,
+      "mrr": 0.53,
+      "ndcg_at_k": 0.53,
+      "per_query": [
+        {
+          "id": "G001",
+          "query": "押金返還未約定期限是否屬定型化契約顯失公平",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_12_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G002",
+          "query": "租賃物毀損由承租人之同居人造成 賠償責任",
+          "relevant": [
+            "民法__第_433_條"
+          ],
+          "retrieved": [
+            "民法__第_433_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G003",
+          "query": "租賃契約終止 預先受領之租金應否返還",
+          "relevant": [
+            "民法__第_454_條"
+          ],
+          "retrieved": [
+            "民法__第_454_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G004",
+          "query": "買賣不破租賃 出租人移轉房屋所有權後租賃契約效力",
+          "relevant": [
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "民法__第_426-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G005",
+          "query": "租賃物之修繕義務由何方負擔",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_429_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G006",
+          "query": "承租人對租賃物有改良 退租時得否請求償還費用",
+          "relevant": [
+            "民法__第_431_條"
+          ],
+          "retrieved": [
+            "民法__第_461-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G007",
+          "query": "違約金約定過高 法院得否酌減",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_252_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G008",
+          "query": "租賃物有瑕疵危及承租人健康 承租人之終止權",
+          "relevant": [
+            "民法__第_424_條"
+          ],
+          "retrieved": [
+            "民法__第_424_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G009",
+          "query": "出租人轉租之同意 未經出租人同意之轉租效力",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G010",
+          "query": "未定期限之租賃 契約終止之預告期間",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_459_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G011",
+          "query": "買賣物之瑕疵擔保責任 出賣人之義務",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_359_條"
+          ],
+          "retrieved": [
+            "民法__第_366_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G012",
+          "query": "買賣標的物之危險負擔 何時移轉至買受人",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_373_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G013",
+          "query": "買賣價金給付 分期付款買賣之風險",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_345_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G014",
+          "query": "所有權保留條款 動產分期付款買賣",
+          "relevant": [
+            "民法__第_761_條"
+          ],
+          "retrieved": [
+            "民法__第_897_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G015",
+          "query": "不動產買賣登記 物權移轉之要件",
+          "relevant": [
+            "民法__第_758_條",
+            "民法__第_759_條"
+          ],
+          "retrieved": [
+            "民法__第_906-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G016",
+          "query": "買受人發現物之瑕疵 得否解除契約或請求減少價金",
+          "relevant": [
+            "民法__第_359_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_359_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G017",
+          "query": "押金返還請求權消滅時效",
+          "relevant": [
+            "民法__第_126_條",
+            "民法__第_127_條"
+          ],
+          "retrieved": [
+            "民法__第_144_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G018",
+          "query": "定型化契約條款 顯失公平之效力",
+          "relevant": [
+            "民法__第_247-1_條",
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_12_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G019",
+          "query": "消費者保護法 定型化契約審閱期間",
+          "relevant": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G020",
+          "query": "未經公證之長期租賃 買賣不破租賃之例外",
+          "relevant": [
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "民法__第_425_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G021",
+          "query": "房屋承租人遲付租金 出租人未經催告即終止契約",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G022",
+          "query": "房屋承租人積欠租金總額未達二個月 出租人約定得逕行終止",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G023",
+          "query": "租金約定每期開始時支付 遲延逾二個月出租人始得終止",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G024",
+          "query": "不定期房屋租賃 出租人主張隨時終止無須任何事由",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_561_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G025",
+          "query": "不定期租賃終止 出租人未依法先期通知即要求遷出",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_453_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G026",
+          "query": "租期屆滿承租人續住使用 出租人未即表示反對之效力",
+          "relevant": [
+            "民法__第_451_條"
+          ],
+          "retrieved": [
+            "民法__第_451_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G027",
+          "query": "定型化租約約定排除默示更新 期滿續住一律視為無權占有",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_451_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G028",
+          "query": "租賃關係終止後 承租人拒不返還租賃物",
+          "relevant": [
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G029",
+          "query": "租約終止 承租人遺留物品占用房屋 出租人請求遷讓返還",
+          "relevant": [
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G030",
+          "query": "定期租約期限屆滿 租賃關係當然消滅之效力",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_450_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G031",
+          "query": "定期租約約定一方得於期滿前終止 終止之先期通知義務",
+          "relevant": [
+            "民法__第_453_條"
+          ],
+          "retrieved": [
+            "民法__第_453_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G032",
+          "query": "租約提前終止 出租人已預收尚未到期之租金應否返還",
+          "relevant": [
+            "民法__第_454_條"
+          ],
+          "retrieved": [
+            "民法__第_454_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G033",
+          "query": "住宅承租人提前終止租約 預告期間之約定",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_438_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G034",
+          "query": "住宅出租人因收回自住提前終止 預告期間不足三個月",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_54_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G035",
+          "query": "承租人違反約定使用方法 經出租人阻止仍續為之 出租人之終止權",
+          "relevant": [
+            "民法__第_438_條"
+          ],
+          "retrieved": [
+            "民法__第_438_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G036",
+          "query": "租約約定終止後每逾一日承租人須付數倍租金違約金 金額過高",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G037",
+          "query": "租約約定終止後出租人得逕自進入並搬遷承租人物品免責",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G038",
+          "query": "租賃期限約定逾二十年 超過部分之效力",
+          "relevant": [
+            "民法__第_449_條"
+          ],
+          "retrieved": [
+            "民法__第_449_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G039",
+          "query": "耕作地租賃 承租人積欠租金達二年總額 出租人之終止權",
+          "relevant": [
+            "民法__第_458_條"
+          ],
+          "retrieved": [
+            "民法__第_458_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G040",
+          "query": "耕作地承租人擅將耕地全部轉租他人 出租人終止租約",
+          "relevant": [
+            "民法__第_458_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G041",
+          "query": "未定期限耕作地租賃 出租人欲收回自耕之終止限制",
+          "relevant": [
+            "民法__第_459_條"
+          ],
+          "retrieved": [
+            "民法__第_459_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G042",
+          "query": "承租人離去不動產時取去留置物 出租人之終止契約權",
+          "relevant": [
+            "民法__第_447_條"
+          ],
+          "retrieved": [
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G043",
+          "query": "買受人受領標的物後拒付約定價金 出賣人得否請求給付價金",
+          "relevant": [
+            "民法__第_367_條"
+          ],
+          "retrieved": [
+            "民法__第_367_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G044",
+          "query": "契約約定買受人須先付清全部價金 出賣人始交付標的物 排除同時履行",
+          "relevant": [
+            "民法__第_369_條"
+          ],
+          "retrieved": [
+            "民法__第_367_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G045",
+          "query": "標的物交付期限已屆 買受人主張價金交付期限尚未到來",
+          "relevant": [
+            "民法__第_369_條",
+            "民法__第_370_條"
+          ],
+          "retrieved": [
+            "民法__第_370_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G046",
+          "query": "買受人恐第三人主張權利致失買賣所得權利 得否拒絕支付價金",
+          "relevant": [
+            "民法__第_368_條"
+          ],
+          "retrieved": [
+            "民法__第_368_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G047",
+          "query": "契約約定價金須送至出賣人營業所交付 與標的物交付處所不同之爭議",
+          "relevant": [
+            "民法__第_371_條"
+          ],
+          "retrieved": [
+            "民法__第_371_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G048",
+          "query": "標的物已交付買受人後 因不可歸責雙方事由滅失 價金危險由何方負擔",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_375_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G049",
+          "query": "契約約定危險於締約時即移轉買受人 標的物尚未交付即須負價金危險",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_375_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G050",
+          "query": "買受人請求將標的物送交清償地以外處所 運送中滅失之危險負擔",
+          "relevant": [
+            "民法__第_374_條"
+          ],
+          "retrieved": [
+            "民法__第_374_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G051",
+          "query": "契約約定登記費用及移轉權利費用全部由買受人負擔之分配是否合理",
+          "relevant": [
+            "民法__第_378_條"
+          ],
+          "retrieved": [
+            "民法__第_378_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G052",
+          "query": "分期付款買賣約定買受人一期遲延出賣人即得請求全部價金 遲付未達五分之一",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G053",
+          "query": "分期付款買賣買受人遲付價額已達全部價金五分之一 出賣人請求一次清償",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G054",
+          "query": "分期付款買賣解約時出賣人約定沒收已收全部價金 不問使用代價",
+          "relevant": [
+            "民法__第_390_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G055",
+          "query": "分期付款買賣解約 出賣人扣留價金限於標的物使用代價及損害額",
+          "relevant": [
+            "民法__第_390_條"
+          ],
+          "retrieved": [
+            "民法__第_390_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G056",
+          "query": "動產分期付款買賣約定所有權保留至價金付清始移轉之效力",
+          "relevant": [
+            "民法__第_761_條"
+          ],
+          "retrieved": [
+            "民法__第_345_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G057",
+          "query": "分期付款買賣未以書面訂立且未記載利率 消費者之給付義務範圍",
+          "relevant": [
+            "消費者保護法__第_21_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_21_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G058",
+          "query": "分期付款買賣約定買受人遲付即須給付過高違約金 法院得否酌減",
+          "relevant": [
+            "民法__第_252_條",
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G059",
+          "query": "買賣契約約定出賣人不負使買受人取得完整所有權之義務",
+          "relevant": [
+            "民法__第_348_條"
+          ],
+          "retrieved": [
+            "民法__第_348_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G060",
+          "query": "契約載明房地所有權於簽約付清價金時即移轉於買受人 不待登記",
+          "relevant": [
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G061",
+          "query": "不動產買賣僅以口頭合意移轉所有權 未作成書面",
+          "relevant": [
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_166-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G062",
+          "query": "出賣繼承取得但尚未辦理繼承登記之土地並約定逕行移轉買受人",
+          "relevant": [
+            "民法__第_759_條"
+          ],
+          "retrieved": [
+            "民法__第_759_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G063",
+          "query": "買受人信賴登記名義人為所有權人而買受房地 嗣後原登記不實之效力",
+          "relevant": [
+            "民法__第_759-1_條"
+          ],
+          "retrieved": [
+            "民法__第_759-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G064",
+          "query": "出賣之房地上設有他人抵押權或租賃權 出賣人未告知亦未塗銷",
+          "relevant": [
+            "民法__第_349_條"
+          ],
+          "retrieved": [
+            "民法__第_426-2_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G065",
+          "query": "買賣契約約定移轉登記之代書費及登記規費由買受人單方負擔",
+          "relevant": [
+            "民法__第_348_條",
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_378_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G066",
+          "query": "出賣依法不得移轉於買受人之原住民保留地約定辦理所有權移轉",
+          "relevant": [
+            "民法__第_246_條"
+          ],
+          "retrieved": [
+            "民法__第_919_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G067",
+          "query": "出賣人就同一房地一物二賣並先將所有權移轉登記予他買受人",
+          "relevant": [
+            "民法__第_226_條"
+          ],
+          "retrieved": [
+            "民法__第_348_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G068",
+          "query": "出賣人移轉之地上權或其他權利實際上並不存在",
+          "relevant": [
+            "民法__第_350_條"
+          ],
+          "retrieved": [
+            "民法__第_350_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G069",
+          "query": "移轉之房屋為海砂屋或結構瑕疵減損其價值或通常效用",
+          "relevant": [
+            "民法__第_354_條"
+          ],
+          "retrieved": [
+            "民法__第_354_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G070",
+          "query": "租賃契約未約定租金支付時期,亦無習慣可循,出租人於月初即要求承租人預付全月租金",
+          "relevant": [
+            "民法__第_439_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G071",
+          "query": "租賃物為果園等有季節性收益之農地,雙方就租金應於何時給付發生爭執",
+          "relevant": [
+            "民法__第_439_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G072",
+          "query": "定有五年期限之店面租約,房東以鄰近房價大漲為由,中途聲請法院調高租金",
+          "relevant": [
+            "民法__第_442_條"
+          ],
+          "retrieved": [
+            "民法__第_442_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G073",
+          "query": "未定期限之不動產租賃,因物價與不動產價值顯著上昇,出租人聲請法院增加租金",
+          "relevant": [
+            "民法__第_442_條"
+          ],
+          "retrieved": [
+            "民法__第_442_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G074",
+          "query": "承租人未經房東同意,擅自將承租之整棟廠房全部轉租予第三人營業",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G075",
+          "query": "房屋租約載明禁止轉租之反對約定,承租人仍將其中一間房間分租他人",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G076",
+          "query": "押金返還期間約定「由出租人自行決定」、未訂明確返還時點",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "民法__第_478_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G077",
+          "query": "押金約定為三個月租金總額,逾月租兩倍上限",
+          "relevant": [
+            "民法__第_179_條"
+          ],
+          "retrieved": [
+            "民事訴訟法__第_77-9_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G078",
+          "query": "押金返還以「承租人交還租屋處所並結清水電等費用後」為條件",
+          "relevant": [
+            "民法__第_264_條",
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G079",
+          "query": "出租人積欠押金未返還,主張承租人請求權已罹於五年短期時效而拒絕返還",
+          "relevant": [
+            "民法__第_125_條",
+            "民法__第_126_條"
+          ],
+          "retrieved": [
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G080",
+          "query": "租賃終止結算後,出租人無正當理由扣留押金餘額拒不返還",
+          "relevant": [
+            "民法__第_126_條",
+            "民法__第_179_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G081",
+          "query": "承租人提前終止租約即沒收全部押金作為違約金之條款",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_913_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G082",
+          "query": "租約約定「房屋及附屬設備之一切修繕費用,無論原因,均由承租人自行負擔」",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G083",
+          "query": "承租人發現屋頂漏水通知出租人,出租人逾合理期限不修繕,承租人擬自行僱工修復後扣抵租金",
+          "relevant": [
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G084",
+          "query": "契約約定「承租人不得以任何理由報修或要求出租人進行修繕,亦不得自行修繕後請求償還」",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G085",
+          "query": "租約僅約定「房屋因承租人故意或過失致損壞者,由承租人負修繕責任」,未排除出租人對自然損耗之修繕義務",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G086",
+          "query": "出租人為修繕租賃物進入承租人居住空間,承租人主張影響使用而拒絕,雙方就修繕之容忍與通知程序爭執",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G087",
+          "query": "租約約定「承租人入住後視為認可房屋及設備現狀完好,日後一切修繕概由承租人負擔,出租人不負任何責任」",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G088",
+          "query": "出賣人於買賣契約中約定「房屋現況交屋,buyer 不得就任何瑕疵主張權利」,但交屋後發現為海砂屋(氯離子含量超標、鋼筋嚴重鏽蝕)",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_366_條"
+          ],
+          "retrieved": [
+            "民法__第_349_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G089",
+          "query": "成屋買賣,賣方明知房屋曾發生非自然身故(凶宅)卻於不動產說明書勾選「無」,買方交屋後始查知",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_554_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G090",
+          "query": "買受房屋交屋後發現外牆與浴室長期漏水,減損通常居住效用,買方欲解除契約或請求減少價金",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_359_條"
+          ],
+          "retrieved": [
+            "民法__第_359_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G091",
+          "query": "契約約定「買受人應於交屋後15日內提出瑕疵,逾期視為無瑕疵」,但民法本有6個月通知期及5年最長期間之保護",
+          "relevant": [
+            "民法__第_365_條"
+          ],
+          "retrieved": [
+            "民法__第_365_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G092",
+          "query": "預售屋買賣,出賣人於契約保證建材等級與樣品屋相同,交屋後發現實際建材品質明顯低於保證等級",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_360_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G093",
+          "query": "房東要求承租人於看屋當日立即簽約,並於契約載明「承租人同意拋棄契約審閱期間」",
+          "relevant": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "民法__第_424_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G094",
+          "query": "契約約定承租人若提前一日退租,須賠償相當於十二個月租金之違約金",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G095",
+          "query": "預售屋買賣定型化契約以印定條款約定「賣方對房屋瑕疵不負任何擔保責任」",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_15_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G096",
+          "query": "定型化買賣契約約定「消費者不得就本商品主張任何退換貨或解除契約之權利」",
+          "relevant": [
+            "民法__第_247-1_條",
+            "消費者保護法__第_12_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_17-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G097",
+          "query": "房屋租賃定型化契約載明「本契約內容之變更及解釋,悉依出租人之認定為準」",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_11_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G098",
+          "query": "買方已逾期付款,賣方未定相當期限催告即逕行通知解除買賣契約並沒收已付價金",
+          "relevant": [
+            "民法__第_254_條"
+          ],
+          "retrieved": [
+            "民法__第_257_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G099",
+          "query": "出租人於交屋前因房屋遭火災全毀致給付不能,承租人主張解除租約並請求返還已付押金",
+          "relevant": [
+            "民法__第_256_條",
+            "民法__第_259_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G100",
+          "query": "買賣契約合法解除後,雙方約定買方須返還受領之標的物、賣方須返還價金並附加自受領時起之利息",
+          "relevant": [
+            "民法__第_259_條"
+          ],
+          "retrieved": [
+            "民法__第_259_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      ]
+    },
+    "3": {
+      "n": 100,
+      "recall_at_k": 0.67,
+      "precision_at_k": 0.25,
+      "mrr": 0.595,
+      "ndcg_at_k": 0.6176,
+      "per_query": [
+        {
+          "id": "G001",
+          "query": "押金返還未約定期限是否屬定型化契約顯失公平",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_12_條",
+            "消費者保護法__第_16_條",
+            "消費者保護法__第_14_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G002",
+          "query": "租賃物毀損由承租人之同居人造成 賠償責任",
+          "relevant": [
+            "民法__第_433_條"
+          ],
+          "retrieved": [
+            "民法__第_433_條",
+            "民法__第_434_條",
+            "民法__第_432_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G003",
+          "query": "租賃契約終止 預先受領之租金應否返還",
+          "relevant": [
+            "民法__第_454_條"
+          ],
+          "retrieved": [
+            "民法__第_454_條",
+            "民法__第_463_條",
+            "民法__第_435_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G004",
+          "query": "買賣不破租賃 出租人移轉房屋所有權後租賃契約效力",
+          "relevant": [
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "民法__第_426-1_條",
+            "民法__第_425_條",
+            "民法__第_451_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G005",
+          "query": "租賃物之修繕義務由何方負擔",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_429_條",
+            "民法__第_430_條",
+            "民法__第_437_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G006",
+          "query": "承租人對租賃物有改良 退租時得否請求償還費用",
+          "relevant": [
+            "民法__第_431_條"
+          ],
+          "retrieved": [
+            "民法__第_461-1_條",
+            "民法__第_431_條",
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G007",
+          "query": "違約金約定過高 法院得否酌減",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_252_條",
+            "民法__第_572_條",
+            "民法__第_881-2_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G008",
+          "query": "租賃物有瑕疵危及承租人健康 承租人之終止權",
+          "relevant": [
+            "民法__第_424_條"
+          ],
+          "retrieved": [
+            "民法__第_424_條",
+            "民法__第_433_條",
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G009",
+          "query": "出租人轉租之同意 未經出租人同意之轉租效力",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_446_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G010",
+          "query": "未定期限之租賃 契約終止之預告期間",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_459_條",
+            "民法__第_453_條",
+            "民法__第_450_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G011",
+          "query": "買賣物之瑕疵擔保責任 出賣人之義務",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_359_條"
+          ],
+          "retrieved": [
+            "民法__第_366_條",
+            "民法__第_414_條",
+            "民法__第_411_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G012",
+          "query": "買賣標的物之危險負擔 何時移轉至買受人",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_373_條",
+            "民法__第_378_條",
+            "民法__第_375_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G013",
+          "query": "買賣價金給付 分期付款買賣之風險",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_345_條",
+            "民法__第_381_條",
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G014",
+          "query": "所有權保留條款 動產分期付款買賣",
+          "relevant": [
+            "民法__第_761_條"
+          ],
+          "retrieved": [
+            "民法__第_897_條",
+            "民法__第_801_條",
+            "民法__第_811_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G015",
+          "query": "不動產買賣登記 物權移轉之要件",
+          "relevant": [
+            "民法__第_758_條",
+            "民法__第_759_條"
+          ],
+          "retrieved": [
+            "民法__第_906-1_條",
+            "民法__第_166-1_條",
+            "民法__第_759-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G016",
+          "query": "買受人發現物之瑕疵 得否解除契約或請求減少價金",
+          "relevant": [
+            "民法__第_359_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_359_條",
+            "民法__第_360_條",
+            "民法__第_364_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G017",
+          "query": "押金返還請求權消滅時效",
+          "relevant": [
+            "民法__第_126_條",
+            "民法__第_127_條"
+          ],
+          "retrieved": [
+            "民法__第_144_條",
+            "民法__第_880_條",
+            "民法__第_128_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G018",
+          "query": "定型化契約條款 顯失公平之效力",
+          "relevant": [
+            "民法__第_247-1_條",
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_12_條",
+            "消費者保護法__第_16_條",
+            "消費者保護法__第_14_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G019",
+          "query": "消費者保護法 定型化契約審閱期間",
+          "relevant": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_11-1_條",
+            "消費者保護法__第_14_條",
+            "消費者保護法__第_15_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G020",
+          "query": "未經公證之長期租賃 買賣不破租賃之例外",
+          "relevant": [
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "民法__第_425_條",
+            "民法__第_422_條",
+            "民法__第_463-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G021",
+          "query": "房屋承租人遲付租金 出租人未經催告即終止契約",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_430_條",
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G022",
+          "query": "房屋承租人積欠租金總額未達二個月 出租人約定得逕行終止",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_458_條",
+            "民事訴訟法__第_77-9_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G023",
+          "query": "租金約定每期開始時支付 遲延逾二個月出租人始得終止",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_439_條",
+            "民法__第_454_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G024",
+          "query": "不定期房屋租賃 出租人主張隨時終止無須任何事由",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_561_條",
+            "民法__第_549_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G025",
+          "query": "不定期租賃終止 出租人未依法先期通知即要求遷出",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_453_條",
+            "民法__第_452_條",
+            "民法__第_450_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G026",
+          "query": "租期屆滿承租人續住使用 出租人未即表示反對之效力",
+          "relevant": [
+            "民法__第_451_條"
+          ],
+          "retrieved": [
+            "民法__第_451_條",
+            "民法__第_458_條",
+            "民法__第_431_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G027",
+          "query": "定型化租約約定排除默示更新 期滿續住一律視為無權占有",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_451_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條",
+            "消費者保護法__第_15_條",
+            "民法__第_485_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G028",
+          "query": "租賃關係終止後 承租人拒不返還租賃物",
+          "relevant": [
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條",
+            "民法__第_456_條",
+            "民法__第_435_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G029",
+          "query": "租約終止 承租人遺留物品占用房屋 出租人請求遷讓返還",
+          "relevant": [
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_455_條",
+            "民法__第_422-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G030",
+          "query": "定期租約期限屆滿 租賃關係當然消滅之效力",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_450_條",
+            "民法__第_488_條",
+            "民法__第_451_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G031",
+          "query": "定期租約約定一方得於期滿前終止 終止之先期通知義務",
+          "relevant": [
+            "民法__第_453_條"
+          ],
+          "retrieved": [
+            "民法__第_453_條",
+            "民法__第_561_條",
+            "民法__第_452_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G032",
+          "query": "租約提前終止 出租人已預收尚未到期之租金應否返還",
+          "relevant": [
+            "民法__第_454_條"
+          ],
+          "retrieved": [
+            "民法__第_454_條",
+            "民法__第_457-1_條",
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G033",
+          "query": "住宅承租人提前終止租約 預告期間之約定",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_438_條",
+            "民法__第_756-4_條",
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G034",
+          "query": "住宅出租人因收回自住提前終止 預告期間不足三個月",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_54_條",
+            "民法__第_756-4_條",
+            "民法__第_450_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G035",
+          "query": "承租人違反約定使用方法 經出租人阻止仍續為之 出租人之終止權",
+          "relevant": [
+            "民法__第_438_條"
+          ],
+          "retrieved": [
+            "民法__第_438_條",
+            "民法__第_447_條",
+            "民法__第_850-6_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G036",
+          "query": "租約約定終止後每逾一日承租人須付數倍租金違約金 金額過高",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_709-6_條",
+            "民法__第_252_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G037",
+          "query": "租約約定終止後出租人得逕自進入並搬遷承租人物品免責",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_447_條",
+            "民法__第_455_條",
+            "民法__第_443_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G038",
+          "query": "租賃期限約定逾二十年 超過部分之效力",
+          "relevant": [
+            "民法__第_449_條"
+          ],
+          "retrieved": [
+            "民法__第_449_條",
+            "民法__第_380_條",
+            "民法__第_422_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G039",
+          "query": "耕作地租賃 承租人積欠租金達二年總額 出租人之終止權",
+          "relevant": [
+            "民法__第_458_條"
+          ],
+          "retrieved": [
+            "民法__第_458_條",
+            "民法__第_440_條",
+            "民法__第_457-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G040",
+          "query": "耕作地承租人擅將耕地全部轉租他人 出租人終止租約",
+          "relevant": [
+            "民法__第_458_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_458_條",
+            "民法__第_444_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G041",
+          "query": "未定期限耕作地租賃 出租人欲收回自耕之終止限制",
+          "relevant": [
+            "民法__第_459_條"
+          ],
+          "retrieved": [
+            "民法__第_459_條",
+            "民法__第_461_條",
+            "民法__第_450_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G042",
+          "query": "承租人離去不動產時取去留置物 出租人之終止契約權",
+          "relevant": [
+            "民法__第_447_條"
+          ],
+          "retrieved": [
+            "民法__第_447_條",
+            "民法__第_446_條",
+            "民法__第_445_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G043",
+          "query": "買受人受領標的物後拒付約定價金 出賣人得否請求給付價金",
+          "relevant": [
+            "民法__第_367_條"
+          ],
+          "retrieved": [
+            "民法__第_367_條",
+            "民法__第_389_條",
+            "民法__第_379_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G044",
+          "query": "契約約定買受人須先付清全部價金 出賣人始交付標的物 排除同時履行",
+          "relevant": [
+            "民法__第_369_條"
+          ],
+          "retrieved": [
+            "民法__第_367_條",
+            "民法__第_389_條",
+            "民法__第_387_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G045",
+          "query": "標的物交付期限已屆 買受人主張價金交付期限尚未到來",
+          "relevant": [
+            "民法__第_369_條",
+            "民法__第_370_條"
+          ],
+          "retrieved": [
+            "民法__第_370_條",
+            "民法__第_387_條",
+            "民法__第_386_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G046",
+          "query": "買受人恐第三人主張權利致失買賣所得權利 得否拒絕支付價金",
+          "relevant": [
+            "民法__第_368_條"
+          ],
+          "retrieved": [
+            "民法__第_368_條",
+            "民法__第_349_條",
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G047",
+          "query": "契約約定價金須送至出賣人營業所交付 與標的物交付處所不同之爭議",
+          "relevant": [
+            "民法__第_371_條"
+          ],
+          "retrieved": [
+            "民法__第_371_條",
+            "民法__第_367_條",
+            "民法__第_388_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G048",
+          "query": "標的物已交付買受人後 因不可歸責雙方事由滅失 價金危險由何方負擔",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_375_條",
+            "民法__第_374_條",
+            "民法__第_373_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G049",
+          "query": "契約約定危險於締約時即移轉買受人 標的物尚未交付即須負價金危險",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_375_條",
+            "民法__第_374_條",
+            "民法__第_373_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G050",
+          "query": "買受人請求將標的物送交清償地以外處所 運送中滅失之危險負擔",
+          "relevant": [
+            "民法__第_374_條"
+          ],
+          "retrieved": [
+            "民法__第_374_條",
+            "民法__第_378_條",
+            "民法__第_375_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G051",
+          "query": "契約約定登記費用及移轉權利費用全部由買受人負擔之分配是否合理",
+          "relevant": [
+            "民法__第_378_條"
+          ],
+          "retrieved": [
+            "民法__第_378_條",
+            "民法__第_381_條",
+            "民法__第_375_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G052",
+          "query": "分期付款買賣約定買受人一期遲延出賣人即得請求全部價金 遲付未達五分之一",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_368_條",
+            "民法__第_709-9_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G053",
+          "query": "分期付款買賣買受人遲付價額已達全部價金五分之一 出賣人請求一次清償",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_368_條",
+            "民法__第_359_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G054",
+          "query": "分期付款買賣解約時出賣人約定沒收已收全部價金 不問使用代價",
+          "relevant": [
+            "民法__第_390_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_390_條",
+            "民法__第_368_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G055",
+          "query": "分期付款買賣解約 出賣人扣留價金限於標的物使用代價及損害額",
+          "relevant": [
+            "民法__第_390_條"
+          ],
+          "retrieved": [
+            "民法__第_390_條",
+            "民法__第_345_條",
+            "民法__第_379_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G056",
+          "query": "動產分期付款買賣約定所有權保留至價金付清始移轉之效力",
+          "relevant": [
+            "民法__第_761_條"
+          ],
+          "retrieved": [
+            "民法__第_345_條",
+            "民法__第_399_條",
+            "民法__第_801_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G057",
+          "query": "分期付款買賣未以書面訂立且未記載利率 消費者之給付義務範圍",
+          "relevant": [
+            "消費者保護法__第_21_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_21_條",
+            "消費者保護法__第_2_條",
+            "消費者保護法__第_20_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G058",
+          "query": "分期付款買賣約定買受人遲付即須給付過高違約金 法院得否酌減",
+          "relevant": [
+            "民法__第_252_條",
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_572_條",
+            "民法__第_252_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9197
+        },
+        {
+          "id": "G059",
+          "query": "買賣契約約定出賣人不負使買受人取得完整所有權之義務",
+          "relevant": [
+            "民法__第_348_條"
+          ],
+          "retrieved": [
+            "民法__第_348_條",
+            "民法__第_385_條",
+            "民法__第_360_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G060",
+          "query": "契約載明房地所有權於簽約付清價金時即移轉於買受人 不待登記",
+          "relevant": [
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_345_條",
+            "民法__第_913_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G061",
+          "query": "不動產買賣僅以口頭合意移轉所有權 未作成書面",
+          "relevant": [
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_166-1_條",
+            "民法__第_554_條",
+            "民法__第_426-2_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G062",
+          "query": "出賣繼承取得但尚未辦理繼承登記之土地並約定逕行移轉買受人",
+          "relevant": [
+            "民法__第_759_條"
+          ],
+          "retrieved": [
+            "民法__第_759_條",
+            "民法__第_836-2_條",
+            "民法__第_1087_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G063",
+          "query": "買受人信賴登記名義人為所有權人而買受房地 嗣後原登記不實之效力",
+          "relevant": [
+            "民法__第_759-1_條"
+          ],
+          "retrieved": [
+            "民法__第_759-1_條",
+            "民法__第_31_條",
+            "民法__第_1008_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G064",
+          "query": "出賣之房地上設有他人抵押權或租賃權 出賣人未告知亦未塗銷",
+          "relevant": [
+            "民法__第_349_條"
+          ],
+          "retrieved": [
+            "民法__第_426-2_條",
+            "民法__第_881-16_條",
+            "民法__第_360_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G065",
+          "query": "買賣契約約定移轉登記之代書費及登記規費由買受人單方負擔",
+          "relevant": [
+            "民法__第_348_條",
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_378_條",
+            "民法__第_166-1_條",
+            "民法__第_373_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G066",
+          "query": "出賣依法不得移轉於買受人之原住民保留地約定辦理所有權移轉",
+          "relevant": [
+            "民法__第_246_條"
+          ],
+          "retrieved": [
+            "民法__第_919_條",
+            "民法__第_873-1_條",
+            "民法__第_354_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G067",
+          "query": "出賣人就同一房地一物二賣並先將所有權移轉登記予他買受人",
+          "relevant": [
+            "民法__第_226_條"
+          ],
+          "retrieved": [
+            "民法__第_348_條",
+            "民法__第_354_條",
+            "民法__第_825_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G068",
+          "query": "出賣人移轉之地上權或其他權利實際上並不存在",
+          "relevant": [
+            "民法__第_350_條"
+          ],
+          "retrieved": [
+            "民法__第_350_條",
+            "民法__第_881-16_條",
+            "民法__第_833-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G069",
+          "query": "移轉之房屋為海砂屋或結構瑕疵減損其價值或通常效用",
+          "relevant": [
+            "民法__第_354_條"
+          ],
+          "retrieved": [
+            "民法__第_354_條",
+            "民法__第_492_條",
+            "民法__第_887_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G070",
+          "query": "租賃契約未約定租金支付時期,亦無習慣可循,出租人於月初即要求承租人預付全月租金",
+          "relevant": [
+            "民法__第_439_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條",
+            "民法__第_440_條",
+            "民法__第_450_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G071",
+          "query": "租賃物為果園等有季節性收益之農地,雙方就租金應於何時給付發生爭執",
+          "relevant": [
+            "民法__第_439_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條",
+            "民法__第_421_條",
+            "民法__第_441_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G072",
+          "query": "定有五年期限之店面租約,房東以鄰近房價大漲為由,中途聲請法院調高租金",
+          "relevant": [
+            "民法__第_442_條"
+          ],
+          "retrieved": [
+            "民法__第_442_條",
+            "民法__第_380_條",
+            "民事訴訟法__第_77-9_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G073",
+          "query": "未定期限之不動產租賃,因物價與不動產價值顯著上昇,出租人聲請法院增加租金",
+          "relevant": [
+            "民法__第_442_條"
+          ],
+          "retrieved": [
+            "民法__第_442_條",
+            "民法__第_425_條",
+            "民法__第_445_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G074",
+          "query": "承租人未經房東同意,擅自將承租之整棟廠房全部轉租予第三人營業",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_543_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G075",
+          "query": "房屋租約載明禁止轉租之反對約定,承租人仍將其中一間房間分租他人",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_425-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G076",
+          "query": "押金返還期間約定「由出租人自行決定」、未訂明確返還時點",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "民法__第_478_條",
+            "民法__第_479_條",
+            "民法__第_455_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G077",
+          "query": "押金約定為三個月租金總額,逾月租兩倍上限",
+          "relevant": [
+            "民法__第_179_條"
+          ],
+          "retrieved": [
+            "民事訴訟法__第_77-9_條",
+            "民法__第_440_條",
+            "民事訴訟法__第_77-4_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G078",
+          "query": "押金返還以「承租人交還租屋處所並結清水電等費用後」為條件",
+          "relevant": [
+            "民法__第_264_條",
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條",
+            "民法__第_461-1_條",
+            "民法__第_426-2_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G079",
+          "query": "出租人積欠押金未返還,主張承租人請求權已罹於五年短期時效而拒絕返還",
+          "relevant": [
+            "民法__第_125_條",
+            "民法__第_126_條"
+          ],
+          "retrieved": [
+            "民法__第_456_條",
+            "民法__第_455_條",
+            "民法__第_461-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G080",
+          "query": "租賃終止結算後,出租人無正當理由扣留押金餘額拒不返還",
+          "relevant": [
+            "民法__第_126_條",
+            "民法__第_179_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條",
+            "民法__第_454_條",
+            "民法__第_463_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G081",
+          "query": "承租人提前終止租約即沒收全部押金作為違約金之條款",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_913_條",
+            "民法__第_250_條",
+            "消費者保護法__第_11-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G082",
+          "query": "租約約定「房屋及附屬設備之一切修繕費用,無論原因,均由承租人自行負擔」",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_429_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G083",
+          "query": "承租人發現屋頂漏水通知出租人,出租人逾合理期限不修繕,承租人擬自行僱工修復後扣抵租金",
+          "relevant": [
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G084",
+          "query": "契約約定「承租人不得以任何理由報修或要求出租人進行修繕,亦不得自行修繕後請求償還」",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_429_條",
+            "民法__第_437_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G085",
+          "query": "租約僅約定「房屋因承租人故意或過失致損壞者,由承租人負修繕責任」,未排除出租人對自然損耗之修繕義務",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_434_條",
+            "民法__第_437_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G086",
+          "query": "出租人為修繕租賃物進入承租人居住空間,承租人主張影響使用而拒絕,雙方就修繕之容忍與通知程序爭執",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_429_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G087",
+          "query": "租約約定「承租人入住後視為認可房屋及設備現狀完好,日後一切修繕概由承租人負擔,出租人不負任何責任」",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_429_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9197
+        },
+        {
+          "id": "G088",
+          "query": "出賣人於買賣契約中約定「房屋現況交屋,buyer 不得就任何瑕疵主張權利」,但交屋後發現為海砂屋(氯離子含量超標、鋼筋嚴重鏽蝕)",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_366_條"
+          ],
+          "retrieved": [
+            "民法__第_349_條",
+            "民法__第_363_條",
+            "民法__第_368_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G089",
+          "query": "成屋買賣,賣方明知房屋曾發生非自然身故(凶宅)卻於不動產說明書勾選「無」,買方交屋後始查知",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_554_條",
+            "民法__第_759_條",
+            "民法__第_928_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G090",
+          "query": "買受房屋交屋後發現外牆與浴室長期漏水,減損通常居住效用,買方欲解除契約或請求減少價金",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_359_條"
+          ],
+          "retrieved": [
+            "民法__第_359_條",
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.6667,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G091",
+          "query": "契約約定「買受人應於交屋後15日內提出瑕疵,逾期視為無瑕疵」,但民法本有6個月通知期及5年最長期間之保護",
+          "relevant": [
+            "民法__第_365_條"
+          ],
+          "retrieved": [
+            "民法__第_365_條",
+            "民法__第_354_條",
+            "民法__第_355_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G092",
+          "query": "預售屋買賣,出賣人於契約保證建材等級與樣品屋相同,交屋後發現實際建材品質明顯低於保證等級",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_360_條",
+            "民法__第_388_條",
+            "民法__第_754_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G093",
+          "query": "房東要求承租人於看屋當日立即簽約,並於契約載明「承租人同意拋棄契約審閱期間」",
+          "relevant": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "民法__第_424_條",
+            "消費者保護法__第_11-1_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G094",
+          "query": "契約約定承租人若提前一日退租,須賠償相當於十二個月租金之違約金",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_450_條",
+            "民法__第_204_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G095",
+          "query": "預售屋買賣定型化契約以印定條款約定「賣方對房屋瑕疵不負任何擔保責任」",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_15_條",
+            "民法__第_364_條",
+            "消費者保護法__第_14_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G096",
+          "query": "定型化買賣契約約定「消費者不得就本商品主張任何退換貨或解除契約之權利」",
+          "relevant": [
+            "民法__第_247-1_條",
+            "消費者保護法__第_12_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_17-1_條",
+            "民法__第_349_條",
+            "消費者保護法__第_11-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G097",
+          "query": "房屋租賃定型化契約載明「本契約內容之變更及解釋,悉依出租人之認定為準」",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_11_條",
+            "消費者保護法__第_17_條",
+            "消費者保護法__第_11-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G098",
+          "query": "買方已逾期付款,賣方未定相當期限催告即逕行通知解除買賣契約並沒收已付價金",
+          "relevant": [
+            "民法__第_254_條"
+          ],
+          "retrieved": [
+            "民法__第_257_條",
+            "民法__第_389_條",
+            "民法__第_361_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G099",
+          "query": "出租人於交屋前因房屋遭火災全毀致給付不能,承租人主張解除租約並請求返還已付押金",
+          "relevant": [
+            "民法__第_256_條",
+            "民法__第_259_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_437_條",
+            "民法__第_249_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G100",
+          "query": "買賣契約合法解除後,雙方約定買方須返還受領之標的物、賣方須返還價金並附加自受領時起之利息",
+          "relevant": [
+            "民法__第_259_條"
+          ],
+          "retrieved": [
+            "民法__第_259_條",
+            "民法__第_379_條",
+            "民法__第_390_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.3333,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      ]
+    },
+    "5": {
+      "n": 100,
+      "recall_at_k": 0.7,
+      "precision_at_k": 0.158,
+      "mrr": 0.6025,
+      "ndcg_at_k": 0.6292,
+      "per_query": [
+        {
+          "id": "G001",
+          "query": "押金返還未約定期限是否屬定型化契約顯失公平",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_12_條",
+            "消費者保護法__第_16_條",
+            "消費者保護法__第_14_條",
+            "消費者保護法__第_17_條",
+            "民法__第_835-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G002",
+          "query": "租賃物毀損由承租人之同居人造成 賠償責任",
+          "relevant": [
+            "民法__第_433_條"
+          ],
+          "retrieved": [
+            "民法__第_433_條",
+            "民法__第_434_條",
+            "民法__第_432_條",
+            "民法__第_444_條",
+            "民法__第_424_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G003",
+          "query": "租賃契約終止 預先受領之租金應否返還",
+          "relevant": [
+            "民法__第_454_條"
+          ],
+          "retrieved": [
+            "民法__第_454_條",
+            "民法__第_463_條",
+            "民法__第_435_條",
+            "民法__第_440_條",
+            "民法__第_421_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G004",
+          "query": "買賣不破租賃 出租人移轉房屋所有權後租賃契約效力",
+          "relevant": [
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "民法__第_426-1_條",
+            "民法__第_425_條",
+            "民法__第_451_條",
+            "民法__第_454_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G005",
+          "query": "租賃物之修繕義務由何方負擔",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_429_條",
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_427_條",
+            "民法__第_428_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G006",
+          "query": "承租人對租賃物有改良 退租時得否請求償還費用",
+          "relevant": [
+            "民法__第_431_條"
+          ],
+          "retrieved": [
+            "民法__第_461-1_條",
+            "民法__第_431_條",
+            "民法__第_456_條",
+            "民法__第_430_條",
+            "民法__第_955_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G007",
+          "query": "違約金約定過高 法院得否酌減",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_252_條",
+            "民法__第_572_條",
+            "民法__第_881-2_條",
+            "民法__第_250_條",
+            "民法債編施行法__第_18_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G008",
+          "query": "租賃物有瑕疵危及承租人健康 承租人之終止權",
+          "relevant": [
+            "民法__第_424_條"
+          ],
+          "retrieved": [
+            "民法__第_424_條",
+            "民法__第_433_條",
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G009",
+          "query": "出租人轉租之同意 未經出租人同意之轉租效力",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_446_條",
+            "民法__第_117_條",
+            "民法__第_458_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G010",
+          "query": "未定期限之租賃 契約終止之預告期間",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_459_條",
+            "民法__第_453_條",
+            "民法__第_450_條",
+            "民法__第_561_條",
+            "民法__第_425_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G011",
+          "query": "買賣物之瑕疵擔保責任 出賣人之義務",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_359_條"
+          ],
+          "retrieved": [
+            "民法__第_366_條",
+            "民法__第_414_條",
+            "民法__第_411_條",
+            "民法__第_356_條",
+            "民法__第_355_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G012",
+          "query": "買賣標的物之危險負擔 何時移轉至買受人",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_373_條",
+            "民法__第_378_條",
+            "民法__第_375_條",
+            "民法__第_374_條",
+            "民法__第_385_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G013",
+          "query": "買賣價金給付 分期付款買賣之風險",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_345_條",
+            "民法__第_381_條",
+            "民法__第_389_條",
+            "民法__第_399_條",
+            "民法__第_369_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G014",
+          "query": "所有權保留條款 動產分期付款買賣",
+          "relevant": [
+            "民法__第_761_條"
+          ],
+          "retrieved": [
+            "民法__第_897_條",
+            "民法__第_801_條",
+            "民法__第_811_條",
+            "民法__第_913_條",
+            "民法__第_815_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G015",
+          "query": "不動產買賣登記 物權移轉之要件",
+          "relevant": [
+            "民法__第_758_條",
+            "民法__第_759_條"
+          ],
+          "retrieved": [
+            "民法__第_906-1_條",
+            "民法__第_166-1_條",
+            "民法__第_759-1_條",
+            "民法__第_759_條",
+            "民法__第_851-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.2,
+          "mrr": 0.25,
+          "ndcg_at_k": 0.4307
+        },
+        {
+          "id": "G016",
+          "query": "買受人發現物之瑕疵 得否解除契約或請求減少價金",
+          "relevant": [
+            "民法__第_359_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_359_條",
+            "民法__第_360_條",
+            "民法__第_364_條",
+            "民法__第_365_條",
+            "民法__第_363_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G017",
+          "query": "押金返還請求權消滅時效",
+          "relevant": [
+            "民法__第_126_條",
+            "民法__第_127_條"
+          ],
+          "retrieved": [
+            "民法__第_144_條",
+            "民法__第_880_條",
+            "民法__第_128_條",
+            "民法__第_145_條",
+            "民法物權編施行法__第_16_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G018",
+          "query": "定型化契約條款 顯失公平之效力",
+          "relevant": [
+            "民法__第_247-1_條",
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_12_條",
+            "消費者保護法__第_16_條",
+            "消費者保護法__第_14_條",
+            "消費者保護法__第_15_條",
+            "消費者保護法__第_13_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G019",
+          "query": "消費者保護法 定型化契約審閱期間",
+          "relevant": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_11-1_條",
+            "消費者保護法__第_14_條",
+            "消費者保護法__第_15_條",
+            "消費者保護法__第_11_條",
+            "消費者保護法__第_13_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G020",
+          "query": "未經公證之長期租賃 買賣不破租賃之例外",
+          "relevant": [
+            "民法__第_425_條"
+          ],
+          "retrieved": [
+            "民法__第_425_條",
+            "民法__第_422_條",
+            "民法__第_463-1_條",
+            "民法__第_435_條",
+            "民法__第_408_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G021",
+          "query": "房屋承租人遲付租金 出租人未經催告即終止契約",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_430_條",
+            "民法__第_443_條",
+            "民法__第_422-1_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G022",
+          "query": "房屋承租人積欠租金總額未達二個月 出租人約定得逕行終止",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_458_條",
+            "民事訴訟法__第_77-9_條",
+            "民法__第_443_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G023",
+          "query": "租金約定每期開始時支付 遲延逾二個月出租人始得終止",
+          "relevant": [
+            "民法__第_440_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_439_條",
+            "民法__第_454_條",
+            "民法__第_450_條",
+            "民事訴訟法__第_77-9_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G024",
+          "query": "不定期房屋租賃 出租人主張隨時終止無須任何事由",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_561_條",
+            "民法__第_549_條",
+            "民法__第_447_條",
+            "民法__第_430_條",
+            "民法__第_454_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G025",
+          "query": "不定期租賃終止 出租人未依法先期通知即要求遷出",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_453_條",
+            "民法__第_452_條",
+            "民法__第_450_條",
+            "民法__第_437_條",
+            "民法__第_561_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G026",
+          "query": "租期屆滿承租人續住使用 出租人未即表示反對之效力",
+          "relevant": [
+            "民法__第_451_條"
+          ],
+          "retrieved": [
+            "民法__第_451_條",
+            "民法__第_458_條",
+            "民法__第_431_條",
+            "民法__第_443_條",
+            "民法__第_438_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G027",
+          "query": "定型化租約約定排除默示更新 期滿續住一律視為無權占有",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_451_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條",
+            "消費者保護法__第_15_條",
+            "民法__第_485_條",
+            "消費者保護法__第_12_條",
+            "民法__第_959_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G028",
+          "query": "租賃關係終止後 承租人拒不返還租賃物",
+          "relevant": [
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條",
+            "民法__第_456_條",
+            "民法__第_435_條",
+            "民法__第_431_條",
+            "民法__第_463_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G029",
+          "query": "租約終止 承租人遺留物品占用房屋 出租人請求遷讓返還",
+          "relevant": [
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_455_條",
+            "民法__第_422-1_條",
+            "民法__第_440_條",
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G030",
+          "query": "定期租約期限屆滿 租賃關係當然消滅之效力",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_450_條",
+            "民法__第_488_條",
+            "民法__第_451_條",
+            "民法__第_453_條",
+            "民法__第_859-3_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G031",
+          "query": "定期租約約定一方得於期滿前終止 終止之先期通知義務",
+          "relevant": [
+            "民法__第_453_條"
+          ],
+          "retrieved": [
+            "民法__第_453_條",
+            "民法__第_561_條",
+            "民法__第_452_條",
+            "民法__第_756-4_條",
+            "民法__第_549_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G032",
+          "query": "租約提前終止 出租人已預收尚未到期之租金應否返還",
+          "relevant": [
+            "民法__第_454_條"
+          ],
+          "retrieved": [
+            "民法__第_454_條",
+            "民法__第_457-1_條",
+            "民法__第_440_條",
+            "民法__第_430_條",
+            "民法__第_463_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G033",
+          "query": "住宅承租人提前終止租約 預告期間之約定",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_438_條",
+            "民法__第_756-4_條",
+            "民法__第_456_條",
+            "民法__第_54_條",
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G034",
+          "query": "住宅出租人因收回自住提前終止 預告期間不足三個月",
+          "relevant": [
+            "民法__第_450_條"
+          ],
+          "retrieved": [
+            "民法__第_54_條",
+            "民法__第_756-4_條",
+            "民法__第_450_條",
+            "民法__第_561_條",
+            "民法__第_459_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G035",
+          "query": "承租人違反約定使用方法 經出租人阻止仍續為之 出租人之終止權",
+          "relevant": [
+            "民法__第_438_條"
+          ],
+          "retrieved": [
+            "民法__第_438_條",
+            "民法__第_447_條",
+            "民法__第_850-6_條",
+            "民法__第_443_條",
+            "民法__第_423_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G036",
+          "query": "租約約定終止後每逾一日承租人須付數倍租金違約金 金額過高",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_709-6_條",
+            "民法__第_252_條",
+            "民事訴訟法__第_77-4_條",
+            "民法__第_514-8_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G037",
+          "query": "租約約定終止後出租人得逕自進入並搬遷承租人物品免責",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_447_條",
+            "民法__第_455_條",
+            "民法__第_443_條",
+            "民法__第_438_條",
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G038",
+          "query": "租賃期限約定逾二十年 超過部分之效力",
+          "relevant": [
+            "民法__第_449_條"
+          ],
+          "retrieved": [
+            "民法__第_449_條",
+            "民法__第_380_條",
+            "民法__第_422_條",
+            "民法__第_850-1_條",
+            "民法__第_823_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G039",
+          "query": "耕作地租賃 承租人積欠租金達二年總額 出租人之終止權",
+          "relevant": [
+            "民法__第_458_條"
+          ],
+          "retrieved": [
+            "民法__第_458_條",
+            "民法__第_440_條",
+            "民法__第_457-1_條",
+            "民事訴訟法__第_77-9_條",
+            "民法__第_435_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G040",
+          "query": "耕作地承租人擅將耕地全部轉租他人 出租人終止租約",
+          "relevant": [
+            "民法__第_458_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_458_條",
+            "民法__第_444_條",
+            "民法__第_461-1_條",
+            "民法__第_457-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G041",
+          "query": "未定期限耕作地租賃 出租人欲收回自耕之終止限制",
+          "relevant": [
+            "民法__第_459_條"
+          ],
+          "retrieved": [
+            "民法__第_459_條",
+            "民法__第_461_條",
+            "民法__第_450_條",
+            "民法__第_425_條",
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G042",
+          "query": "承租人離去不動產時取去留置物 出租人之終止契約權",
+          "relevant": [
+            "民法__第_447_條"
+          ],
+          "retrieved": [
+            "民法__第_447_條",
+            "民法__第_446_條",
+            "民法__第_445_條",
+            "民法__第_440_條",
+            "民法__第_430_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G043",
+          "query": "買受人受領標的物後拒付約定價金 出賣人得否請求給付價金",
+          "relevant": [
+            "民法__第_367_條"
+          ],
+          "retrieved": [
+            "民法__第_367_條",
+            "民法__第_389_條",
+            "民法__第_379_條",
+            "民法__第_390_條",
+            "民法__第_387_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G044",
+          "query": "契約約定買受人須先付清全部價金 出賣人始交付標的物 排除同時履行",
+          "relevant": [
+            "民法__第_369_條"
+          ],
+          "retrieved": [
+            "民法__第_367_條",
+            "民法__第_389_條",
+            "民法__第_387_條",
+            "民法__第_371_條",
+            "民法__第_368_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G045",
+          "query": "標的物交付期限已屆 買受人主張價金交付期限尚未到來",
+          "relevant": [
+            "民法__第_369_條",
+            "民法__第_370_條"
+          ],
+          "retrieved": [
+            "民法__第_370_條",
+            "民法__第_387_條",
+            "民法__第_386_條",
+            "民法__第_371_條",
+            "民法__第_367_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G046",
+          "query": "買受人恐第三人主張權利致失買賣所得權利 得否拒絕支付價金",
+          "relevant": [
+            "民法__第_368_條"
+          ],
+          "retrieved": [
+            "民法__第_368_條",
+            "民法__第_349_條",
+            "民法__第_389_條",
+            "民法__第_397_條",
+            "民法__第_359_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G047",
+          "query": "契約約定價金須送至出賣人營業所交付 與標的物交付處所不同之爭議",
+          "relevant": [
+            "民法__第_371_條"
+          ],
+          "retrieved": [
+            "民法__第_371_條",
+            "民法__第_367_條",
+            "民法__第_388_條",
+            "民法__第_374_條",
+            "民法__第_369_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G048",
+          "query": "標的物已交付買受人後 因不可歸責雙方事由滅失 價金危險由何方負擔",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_375_條",
+            "民法__第_374_條",
+            "民法__第_373_條",
+            "民法__第_383_條",
+            "民法__第_387_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G049",
+          "query": "契約約定危險於締約時即移轉買受人 標的物尚未交付即須負價金危險",
+          "relevant": [
+            "民法__第_373_條"
+          ],
+          "retrieved": [
+            "民法__第_375_條",
+            "民法__第_374_條",
+            "民法__第_373_條",
+            "民法__第_354_條",
+            "民法__第_367_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G050",
+          "query": "買受人請求將標的物送交清償地以外處所 運送中滅失之危險負擔",
+          "relevant": [
+            "民法__第_374_條"
+          ],
+          "retrieved": [
+            "民法__第_374_條",
+            "民法__第_378_條",
+            "民法__第_375_條",
+            "民法__第_373_條",
+            "民法__第_508_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G051",
+          "query": "契約約定登記費用及移轉權利費用全部由買受人負擔之分配是否合理",
+          "relevant": [
+            "民法__第_378_條"
+          ],
+          "retrieved": [
+            "民法__第_378_條",
+            "民法__第_381_條",
+            "民法__第_375_條",
+            "民事訴訟法__第_549-1_條",
+            "民法__第_317_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G052",
+          "query": "分期付款買賣約定買受人一期遲延出賣人即得請求全部價金 遲付未達五分之一",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_368_條",
+            "民法__第_709-9_條",
+            "民法__第_440_條",
+            "民法__第_359_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G053",
+          "query": "分期付款買賣買受人遲付價額已達全部價金五分之一 出賣人請求一次清償",
+          "relevant": [
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_368_條",
+            "民法__第_359_條",
+            "民法__第_360_條",
+            "民法__第_387_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G054",
+          "query": "分期付款買賣解約時出賣人約定沒收已收全部價金 不問使用代價",
+          "relevant": [
+            "民法__第_390_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_390_條",
+            "民法__第_368_條",
+            "民法__第_360_條",
+            "民法__第_345_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G055",
+          "query": "分期付款買賣解約 出賣人扣留價金限於標的物使用代價及損害額",
+          "relevant": [
+            "民法__第_390_條"
+          ],
+          "retrieved": [
+            "民法__第_390_條",
+            "民法__第_345_條",
+            "民法__第_379_條",
+            "民法__第_367_條",
+            "民法__第_389_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G056",
+          "query": "動產分期付款買賣約定所有權保留至價金付清始移轉之效力",
+          "relevant": [
+            "民法__第_761_條"
+          ],
+          "retrieved": [
+            "民法__第_345_條",
+            "民法__第_399_條",
+            "民法__第_801_條",
+            "民法__第_884_條",
+            "民法__第_398_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G057",
+          "query": "分期付款買賣未以書面訂立且未記載利率 消費者之給付義務範圍",
+          "relevant": [
+            "消費者保護法__第_21_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_21_條",
+            "消費者保護法__第_2_條",
+            "消費者保護法__第_20_條",
+            "民法__第_203_條",
+            "民法__第_730_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G058",
+          "query": "分期付款買賣約定買受人遲付即須給付過高違約金 法院得否酌減",
+          "relevant": [
+            "民法__第_252_條",
+            "民法__第_389_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_572_條",
+            "民法__第_252_條",
+            "民法__第_250_條",
+            "民法__第_207_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9197
+        },
+        {
+          "id": "G059",
+          "query": "買賣契約約定出賣人不負使買受人取得完整所有權之義務",
+          "relevant": [
+            "民法__第_348_條"
+          ],
+          "retrieved": [
+            "民法__第_348_條",
+            "民法__第_385_條",
+            "民法__第_360_條",
+            "民法__第_389_條",
+            "民法__第_359_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G060",
+          "query": "契約載明房地所有權於簽約付清價金時即移轉於買受人 不待登記",
+          "relevant": [
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_389_條",
+            "民法__第_345_條",
+            "民法__第_913_條",
+            "民法__第_397_條",
+            "民法__第_873-1_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G061",
+          "query": "不動產買賣僅以口頭合意移轉所有權 未作成書面",
+          "relevant": [
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_166-1_條",
+            "民法__第_554_條",
+            "民法__第_426-2_條",
+            "民法__第_919_條",
+            "民法__第_1113-3_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G062",
+          "query": "出賣繼承取得但尚未辦理繼承登記之土地並約定逕行移轉買受人",
+          "relevant": [
+            "民法__第_759_條"
+          ],
+          "retrieved": [
+            "民法__第_759_條",
+            "民法__第_836-2_條",
+            "民法__第_1087_條",
+            "民法__第_1175_條",
+            "民法__第_1176_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G063",
+          "query": "買受人信賴登記名義人為所有權人而買受房地 嗣後原登記不實之效力",
+          "relevant": [
+            "民法__第_759-1_條"
+          ],
+          "retrieved": [
+            "民法__第_759-1_條",
+            "民法__第_31_條",
+            "民法__第_1008_條",
+            "民法__第_988_條",
+            "民法物權編施行法__第_3_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G064",
+          "query": "出賣之房地上設有他人抵押權或租賃權 出賣人未告知亦未塗銷",
+          "relevant": [
+            "民法__第_349_條"
+          ],
+          "retrieved": [
+            "民法__第_426-2_條",
+            "民法__第_881-16_條",
+            "民法__第_360_條",
+            "民法__第_386_條",
+            "民法__第_355_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G065",
+          "query": "買賣契約約定移轉登記之代書費及登記規費由買受人單方負擔",
+          "relevant": [
+            "民法__第_348_條",
+            "民法__第_758_條"
+          ],
+          "retrieved": [
+            "民法__第_378_條",
+            "民法__第_166-1_條",
+            "民法__第_373_條",
+            "民法__第_345_條",
+            "民法__第_381_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G066",
+          "query": "出賣依法不得移轉於買受人之原住民保留地約定辦理所有權移轉",
+          "relevant": [
+            "民法__第_246_條"
+          ],
+          "retrieved": [
+            "民法__第_919_條",
+            "民法__第_873-1_條",
+            "民法__第_354_條",
+            "民法__第_426-2_條",
+            "民法__第_801_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G067",
+          "query": "出賣人就同一房地一物二賣並先將所有權移轉登記予他買受人",
+          "relevant": [
+            "民法__第_226_條"
+          ],
+          "retrieved": [
+            "民法__第_348_條",
+            "民法__第_354_條",
+            "民法__第_825_條",
+            "民法__第_603-1_條",
+            "民法__第_363_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G068",
+          "query": "出賣人移轉之地上權或其他權利實際上並不存在",
+          "relevant": [
+            "民法__第_350_條"
+          ],
+          "retrieved": [
+            "民法__第_350_條",
+            "民法__第_881-16_條",
+            "民法__第_833-1_條",
+            "民法__第_841-5_條",
+            "民法__第_408_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G069",
+          "query": "移轉之房屋為海砂屋或結構瑕疵減損其價值或通常效用",
+          "relevant": [
+            "民法__第_354_條"
+          ],
+          "retrieved": [
+            "民法__第_354_條",
+            "民法__第_492_條",
+            "民法__第_887_條",
+            "民法__第_424_條",
+            "民法__第_426-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G070",
+          "query": "租賃契約未約定租金支付時期,亦無習慣可循,出租人於月初即要求承租人預付全月租金",
+          "relevant": [
+            "民法__第_439_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條",
+            "民法__第_440_條",
+            "民法__第_450_條",
+            "民法__第_457-1_條",
+            "民法__第_421_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G071",
+          "query": "租賃物為果園等有季節性收益之農地,雙方就租金應於何時給付發生爭執",
+          "relevant": [
+            "民法__第_439_條"
+          ],
+          "retrieved": [
+            "民法__第_439_條",
+            "民法__第_421_條",
+            "民法__第_441_條",
+            "民事訴訟法__第_403_條",
+            "民法__第_438_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G072",
+          "query": "定有五年期限之店面租約,房東以鄰近房價大漲為由,中途聲請法院調高租金",
+          "relevant": [
+            "民法__第_442_條"
+          ],
+          "retrieved": [
+            "民法__第_442_條",
+            "民法__第_380_條",
+            "民事訴訟法__第_77-9_條",
+            "民事訴訟法__第_109-1_條",
+            "民事訴訟法__第_77-4_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G073",
+          "query": "未定期限之不動產租賃,因物價與不動產價值顯著上昇,出租人聲請法院增加租金",
+          "relevant": [
+            "民法__第_442_條"
+          ],
+          "retrieved": [
+            "民法__第_442_條",
+            "民法__第_425_條",
+            "民法__第_445_條",
+            "民法__第_450_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G074",
+          "query": "承租人未經房東同意,擅自將承租之整棟廠房全部轉租予第三人營業",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_543_條",
+            "民法__第_484_條",
+            "民法__第_85_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G075",
+          "query": "房屋租約載明禁止轉租之反對約定,承租人仍將其中一間房間分租他人",
+          "relevant": [
+            "民法__第_443_條"
+          ],
+          "retrieved": [
+            "民法__第_443_條",
+            "民法__第_444_條",
+            "民法__第_425-1_條",
+            "民法__第_458_條",
+            "民法__第_426-1_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G076",
+          "query": "押金返還期間約定「由出租人自行決定」、未訂明確返還時點",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "民法__第_478_條",
+            "民法__第_479_條",
+            "民法__第_455_條",
+            "民法__第_461-1_條",
+            "民法__第_597_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G077",
+          "query": "押金約定為三個月租金總額,逾月租兩倍上限",
+          "relevant": [
+            "民法__第_179_條"
+          ],
+          "retrieved": [
+            "民事訴訟法__第_77-9_條",
+            "民法__第_440_條",
+            "民事訴訟法__第_77-4_條",
+            "民法__第_450_條",
+            "消費者保護法__第_51_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G078",
+          "query": "押金返還以「承租人交還租屋處所並結清水電等費用後」為條件",
+          "relevant": [
+            "民法__第_264_條",
+            "民法__第_455_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條",
+            "民法__第_461-1_條",
+            "民法__第_426-2_條",
+            "民事訴訟法__第_77-26_條",
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 0.5,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G079",
+          "query": "出租人積欠押金未返還,主張承租人請求權已罹於五年短期時效而拒絕返還",
+          "relevant": [
+            "民法__第_125_條",
+            "民法__第_126_條"
+          ],
+          "retrieved": [
+            "民法__第_456_條",
+            "民法__第_455_條",
+            "民法__第_461-1_條",
+            "民法__第_880_條",
+            "民法__第_144_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G080",
+          "query": "租賃終止結算後,出租人無正當理由扣留押金餘額拒不返還",
+          "relevant": [
+            "民法__第_126_條",
+            "民法__第_179_條"
+          ],
+          "retrieved": [
+            "民法__第_455_條",
+            "民法__第_454_條",
+            "民法__第_463_條",
+            "民法__第_456_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G081",
+          "query": "承租人提前終止租約即沒收全部押金作為違約金之條款",
+          "relevant": [
+            "民法__第_247-1_條",
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_913_條",
+            "民法__第_250_條",
+            "消費者保護法__第_11-1_條",
+            "民法__第_424_條",
+            "民法__第_458_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G082",
+          "query": "租約約定「房屋及附屬設備之一切修繕費用,無論原因,均由承租人自行負擔」",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_429_條",
+            "民法__第_378_條",
+            "民法__第_456_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G083",
+          "query": "承租人發現屋頂漏水通知出租人,出租人逾合理期限不修繕,承租人擬自行僱工修復後扣抵租金",
+          "relevant": [
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_440_條",
+            "民法__第_457-1_條",
+            "民法__第_447_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G084",
+          "query": "契約約定「承租人不得以任何理由報修或要求出租人進行修繕,亦不得自行修繕後請求償還」",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_429_條",
+            "民法__第_437_條",
+            "民法__第_443_條",
+            "民法__第_461_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G085",
+          "query": "租約僅約定「房屋因承租人故意或過失致損壞者,由承租人負修繕責任」,未排除出租人對自然損耗之修繕義務",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_434_條",
+            "民法__第_437_條",
+            "民法__第_429_條",
+            "民法__第_462_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.25,
+          "ndcg_at_k": 0.4307
+        },
+        {
+          "id": "G086",
+          "query": "出租人為修繕租賃物進入承租人居住空間,承租人主張影響使用而拒絕,雙方就修繕之容忍與通知程序爭執",
+          "relevant": [
+            "民法__第_429_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_429_條",
+            "民法__第_438_條",
+            "民法__第_426_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.3333,
+          "ndcg_at_k": 0.5
+        },
+        {
+          "id": "G087",
+          "query": "租約約定「承租人入住後視為認可房屋及設備現狀完好,日後一切修繕概由承租人負擔,出租人不負任何責任」",
+          "relevant": [
+            "民法__第_429_條",
+            "民法__第_430_條"
+          ],
+          "retrieved": [
+            "民法__第_430_條",
+            "民法__第_437_條",
+            "民法__第_429_條",
+            "民法__第_443_條",
+            "民法__第_434_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.9197
+        },
+        {
+          "id": "G088",
+          "query": "出賣人於買賣契約中約定「房屋現況交屋,buyer 不得就任何瑕疵主張權利」,但交屋後發現為海砂屋(氯離子含量超標、鋼筋嚴重鏽蝕)",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_366_條"
+          ],
+          "retrieved": [
+            "民法__第_349_條",
+            "民法__第_363_條",
+            "民法__第_368_條",
+            "民法__第_364_條",
+            "民法__第_351_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G089",
+          "query": "成屋買賣,賣方明知房屋曾發生非自然身故(凶宅)卻於不動產說明書勾選「無」,買方交屋後始查知",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_554_條",
+            "民法__第_759_條",
+            "民法__第_928_條",
+            "民法__第_770_條",
+            "民法__第_775_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G090",
+          "query": "買受房屋交屋後發現外牆與浴室長期漏水,減損通常居住效用,買方欲解除契約或請求減少價金",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_359_條"
+          ],
+          "retrieved": [
+            "民法__第_359_條",
+            "民法__第_354_條",
+            "民法__第_360_條",
+            "民法__第_364_條",
+            "民法__第_495_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G091",
+          "query": "契約約定「買受人應於交屋後15日內提出瑕疵,逾期視為無瑕疵」,但民法本有6個月通知期及5年最長期間之保護",
+          "relevant": [
+            "民法__第_365_條"
+          ],
+          "retrieved": [
+            "民法__第_365_條",
+            "民法__第_354_條",
+            "民法__第_355_條",
+            "民法__第_121_條",
+            "民法__第_351_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        },
+        {
+          "id": "G092",
+          "query": "預售屋買賣,出賣人於契約保證建材等級與樣品屋相同,交屋後發現實際建材品質明顯低於保證等級",
+          "relevant": [
+            "民法__第_354_條",
+            "民法__第_360_條"
+          ],
+          "retrieved": [
+            "民法__第_360_條",
+            "民法__第_388_條",
+            "民法__第_754_條",
+            "民法__第_354_條",
+            "民法__第_748_條"
+          ],
+          "hits_at_k": 2,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.4,
+          "mrr": 1.0,
+          "ndcg_at_k": 0.8772
+        },
+        {
+          "id": "G093",
+          "query": "房東要求承租人於看屋當日立即簽約,並於契約載明「承租人同意拋棄契約審閱期間」",
+          "relevant": [
+            "消費者保護法__第_11-1_條"
+          ],
+          "retrieved": [
+            "民法__第_424_條",
+            "消費者保護法__第_11-1_條",
+            "民法__第_447_條",
+            "民法__第_443_條",
+            "民法__第_440_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.5,
+          "ndcg_at_k": 0.6309
+        },
+        {
+          "id": "G094",
+          "query": "契約約定承租人若提前一日退租,須賠償相當於十二個月租金之違約金",
+          "relevant": [
+            "民法__第_252_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_450_條",
+            "民法__第_204_條",
+            "民法__第_250_條",
+            "民法__第_435_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G095",
+          "query": "預售屋買賣定型化契約以印定條款約定「賣方對房屋瑕疵不負任何擔保責任」",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_15_條",
+            "民法__第_364_條",
+            "消費者保護法__第_14_條",
+            "消費者保護法__第_11-1_條",
+            "消費者保護法__第_16_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G096",
+          "query": "定型化買賣契約約定「消費者不得就本商品主張任何退換貨或解除契約之權利」",
+          "relevant": [
+            "民法__第_247-1_條",
+            "消費者保護法__第_12_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_17-1_條",
+            "民法__第_349_條",
+            "消費者保護法__第_11-1_條",
+            "消費者保護法__第_19_條",
+            "消費者保護法__第_19-2_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G097",
+          "query": "房屋租賃定型化契約載明「本契約內容之變更及解釋,悉依出租人之認定為準」",
+          "relevant": [
+            "民法__第_247-1_條"
+          ],
+          "retrieved": [
+            "消費者保護法__第_11_條",
+            "消費者保護法__第_17_條",
+            "消費者保護法__第_11-1_條",
+            "消費者保護法__第_13_條",
+            "消費者保護法__第_14_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G098",
+          "query": "買方已逾期付款,賣方未定相當期限催告即逕行通知解除買賣契約並沒收已付價金",
+          "relevant": [
+            "民法__第_254_條"
+          ],
+          "retrieved": [
+            "民法__第_257_條",
+            "民法__第_389_條",
+            "民法__第_361_條",
+            "民法__第_254_條",
+            "民法__第_507_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 0.25,
+          "ndcg_at_k": 0.4307
+        },
+        {
+          "id": "G099",
+          "query": "出租人於交屋前因房屋遭火災全毀致給付不能,承租人主張解除租約並請求返還已付押金",
+          "relevant": [
+            "民法__第_256_條",
+            "民法__第_259_條"
+          ],
+          "retrieved": [
+            "民法__第_440_條",
+            "民法__第_437_條",
+            "民法__第_249_條",
+            "民法__第_422-1_條",
+            "民法__第_436_條"
+          ],
+          "hits_at_k": 0,
+          "recall_at_k": 0.0,
+          "precision_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg_at_k": 0.0
+        },
+        {
+          "id": "G100",
+          "query": "買賣契約合法解除後,雙方約定買方須返還受領之標的物、賣方須返還價金並附加自受領時起之利息",
+          "relevant": [
+            "民法__第_259_條"
+          ],
+          "retrieved": [
+            "民法__第_259_條",
+            "民法__第_379_條",
+            "民法__第_390_條",
+            "民事訴訟法__第_538-2_條",
+            "民法__第_404_條"
+          ],
+          "hits_at_k": 1,
+          "recall_at_k": 1.0,
+          "precision_at_k": 0.2,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0
+        }
+      ]
+    }
+  }
+}

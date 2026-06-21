@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+/* ========================================================================
+   Candy Theme — pastel + 漸層 + 大圓角 + 柔陰影
+   為論文 demo「基於 RAG 之法律文件智慧分析系統」設計
+   ======================================================================== */
+
+@theme {
+  /* --- Candy palette --- */
+  --color-candy-pink: #ffb6d9;
+  --color-candy-pink-50: #fff1f7;
+  --color-candy-pink-100: #ffe1ee;
+  --color-candy-pink-200: #ffc8e0;
+  --color-candy-pink-300: #ffb6d9;
+  --color-candy-pink-400: #ff8fc2;
+  --color-candy-pink-500: #ff66a9;
+  --color-candy-pink-600: #e44a8b;
+
+  --color-candy-mint: #a8e6cf;
+  --color-candy-mint-100: #e9faf2;
+  --color-candy-mint-200: #c8f0de;
+  --color-candy-mint-300: #a8e6cf;
+  --color-candy-mint-500: #5ec99f;
+
+  --color-candy-lemon: #ffe39e;
+  --color-candy-lemon-100: #fff8df;
+  --color-candy-lemon-300: #ffe39e;
+  --color-candy-lemon-500: #f5c451;
+
+  --color-candy-coral: #ff8b94;
+  --color-candy-coral-100: #ffe1e4;
+  --color-candy-coral-300: #ff8b94;
+  --color-candy-coral-500: #ee5c69;
+
+  --color-candy-lavender: #c5a3ff;
+  --color-candy-lavender-100: #efe6ff;
+  --color-candy-lavender-300: #c5a3ff;
+  --color-candy-lavender-500: #9670ec;
+
+  --color-candy-sky: #a4d8ff;
+  --color-candy-sky-100: #e6f3ff;
+  --color-candy-sky-300: #a4d8ff;
+  --color-candy-sky-500: #5fb0ee;
+
+  --color-candy-cream: #fff7e6;
+  --color-candy-cocoa: #3d2c2a;
+  --color-candy-mocha: #6b524f;
+
+  /* --- Semantic tokens --- */
+  --color-background: #fff8f0;
+  --color-foreground: #3d2c2a;
+  --color-surface: rgba(255, 255, 255, 0.7);
+  --color-border: rgba(255, 182, 217, 0.3);
+
+  /* --- Fonts --- */
+  --font-display: var(--font-fredoka), system-ui, sans-serif;
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+
+  /* --- Shadows --- */
+  --shadow-candy: 0 8px 30px rgba(255, 182, 217, 0.25);
+  --shadow-candy-lg: 0 16px 50px rgba(255, 182, 217, 0.35);
+  --shadow-candy-mint: 0 8px 30px rgba(168, 230, 207, 0.3);
+  --shadow-candy-lavender: 0 8px 30px rgba(197, 163, 255, 0.3);
+
+  /* --- Radii --- */
+  --radius-candy: 1.25rem;
+  --radius-candy-lg: 1.75rem;
+}
+
+/* --- Base body --- */
+body {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(255, 182, 217, 0.25), transparent 40%),
+    radial-gradient(circle at 90% 20%, rgba(197, 163, 255, 0.2), transparent 40%),
+    radial-gradient(circle at 50% 95%, rgba(168, 230, 207, 0.25), transparent 45%),
+    var(--color-background);
+  background-attachment: fixed;
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  min-height: 100vh;
+}
+
+/* --- Custom utility classes --- */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .glass-pink {
+    background: rgba(255, 241, 247, 0.7);
+    backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 182, 217, 0.4);
+  }
+
+  .candy-gradient {
+    background: linear-gradient(135deg, #ffb6d9 0%, #c5a3ff 50%, #a4d8ff 100%);
+  }
+
+  .candy-gradient-warm {
+    background: linear-gradient(135deg, #ffb6d9 0%, #ffe39e 100%);
+  }
+
+  .candy-gradient-cool {
+    background: linear-gradient(135deg, #a4d8ff 0%, #c5a3ff 100%);
+  }
+
+  .candy-gradient-fresh {
+    background: linear-gradient(135deg, #a8e6cf 0%, #a4d8ff 100%);
+  }
+
+  .text-gradient-candy {
+    background: linear-gradient(135deg, #ee5c69 0%, #9670ec 50%, #5fb0ee 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .scrollbar-candy::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  .scrollbar-candy::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-candy::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ffb6d9, #c5a3ff);
+    border-radius: 999px;
+  }
+}
+
+/* --- Selection --- */
+::selection {
+  background: rgba(255, 182, 217, 0.5);
+  color: #3d2c2a;
+}

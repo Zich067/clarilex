@@ -1,0 +1,104 @@
+{
+  "basis": "shared",
+  "n": 100,
+  "judges": {
+    "gpt-5-mini (OpenAI)": {
+      "baseline": [
+        0.604,
+        0.243
+      ],
+      "rag": [
+        0.797,
+        0.102
+      ],
+      "triangulation": [
+        0.801,
+        0.106
+      ],
+      "oracle": [
+        0.686,
+        0.198
+      ]
+    },
+    "gemini-2.5-flash (Google)": {
+      "baseline": [
+        0.526,
+        0.347
+      ],
+      "rag": [
+        0.832,
+        0.104
+      ],
+      "triangulation": [
+        0.846,
+        0.085
+      ],
+      "oracle": [
+        0.758,
+        0.177
+      ]
+    },
+    "claude-opus-4.8 (Anthropic)": {
+      "baseline": [
+        0.47,
+        0.369
+      ],
+      "rag": [
+        0.914,
+        0.012
+      ],
+      "triangulation": [
+        0.92,
+        0.016
+      ],
+      "oracle": [
+        0.917,
+        0.011
+      ]
+    }
+  },
+  "judge_mean_faithfulness": {
+    "baseline": 0.533,
+    "rag": 0.848,
+    "triangulation": 0.856,
+    "oracle": 0.787
+  },
+  "judge_mean_hallucination": {
+    "baseline": 0.32,
+    "rag": 0.073,
+    "triangulation": 0.069,
+    "oracle": 0.129
+  },
+  "citation_vs_gold_f1": {
+    "baseline": 0.082,
+    "rag": 0.346,
+    "triangulation": 0.354,
+    "oracle": 1.0
+  },
+  "reliability": {
+    "ICC_2_1": 0.514,
+    "ICC_2_k": 0.76,
+    "pearson": {
+      "gpt5_gemini": 0.529,
+      "gpt5_claude": 0.472,
+      "gemini_claude": 0.639
+    },
+    "direction_agreement_RAG_gt_Baseline": "78/100"
+  },
+  "significance_fair_shared": {
+    "gpt5_baseline_to_rag": {
+      "pos": 88,
+      "neg": 11,
+      "r": 0.778,
+      "p_holm": 1.103e-14
+    },
+    "gemini_baseline_to_rag": {
+      "pos": 90,
+      "neg": 8,
+      "r": 0.837,
+      "p_holm": 3.962e-15
+    },
+    "rag_to_triangulation": "not significant (both judges p>0.4)"
+  },
+  "note": "generator=gpt-5-mini; 3 independent cross-vendor judges; shared basis; n=100 (clean, n_mock=0 all modes)"
+}
