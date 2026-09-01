@@ -1,0 +1,257 @@
+{
+  "model_a": "gpt-5-mini",
+  "model_b": "gpt-4o",
+  "n": 40,
+  "three_class": {
+    "observed_agreement": 0.7,
+    "cohen_kappa": 0.5152,
+    "level": "moderate(中等)"
+  },
+  "binary_supported_vs_rest": {
+    "observed_agreement": 0.85,
+    "cohen_kappa": 0.4894,
+    "level": "moderate(中等)"
+  },
+  "per_sample": [
+    {
+      "sample_id": "S001",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "supported",
+      "agree": true
+    },
+    {
+      "sample_id": "S002",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "supported",
+      "agree": true
+    },
+    {
+      "sample_id": "S003",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S004",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S005",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S006",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "supported",
+      "agree": false
+    },
+    {
+      "sample_id": "S007",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "supported",
+      "agree": true
+    },
+    {
+      "sample_id": "S008",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S009",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S010",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S011",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S012",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S013",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S014",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S015",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S016",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S017",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S018",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S019",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S020",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "unsupported",
+      "agree": false
+    },
+    {
+      "sample_id": "S021",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "unsupported",
+      "agree": false
+    },
+    {
+      "sample_id": "S022",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S023",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S024",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S025",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S026",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S027",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S028",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "unsupported",
+      "agree": false
+    },
+    {
+      "sample_id": "S029",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "unsupported",
+      "agree": false
+    },
+    {
+      "sample_id": "S030",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S031",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S032",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S033",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S034",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "supported",
+      "agree": true
+    },
+    {
+      "sample_id": "S035",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S036",
+      "gpt-5-mini": "supported",
+      "gpt-4o": "partial",
+      "agree": false
+    },
+    {
+      "sample_id": "S037",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S038",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    },
+    {
+      "sample_id": "S039",
+      "gpt-5-mini": "unsupported",
+      "gpt-4o": "unsupported",
+      "agree": true
+    },
+    {
+      "sample_id": "S040",
+      "gpt-5-mini": "partial",
+      "gpt-4o": "partial",
+      "agree": true
+    }
+  ]
+}

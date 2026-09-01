@@ -1,0 +1,32 @@
+# 環境變數與金鑰
+.env
+.env.*
+!.env.example
+*key*.txt
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 索引與使用者上傳(體積大/含資料)
+system/data/indexes/
+system/data/user_uploads/*
+!system/data/user_uploads/.gitkeep
+system/data/judgements/*
+!system/data/judgements/.gitkeep
+
+# 系統與暫存
+.DS_Store
+*.log
+
+# Node modules / Next.js build
+web/node_modules/
+web/.next/
+web/out/
+web/.turbo/
+*.tsbuildinfo
+
+# ChromaDB persistent data(體積大,可由 build_index.py 重建)
+system/chroma_db/

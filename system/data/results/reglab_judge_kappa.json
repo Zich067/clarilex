@@ -1,0 +1,17 @@
+{
+  "n": 80,
+  "observed_agreement": 0.775,
+  "cohen_kappa": 0.4005,
+  "human_hallucination_rate": 0.2625,
+  "judge_hallucination_rate": 0.2375,
+  "confusion": {
+    "tp": 11,
+    "tn": 51,
+    "fp": 8,
+    "fn": 10
+  },
+  "dataset": "reglab/legal_rag_hallucinations (Stanford, human-labeled)",
+  "judge_model": "gpt-5-mini",
+  "task": "binary hallucination detection",
+  "note": "外部人工 κ 校準;美國法(跨域),校驗評審機制與人類專家之一致性"
+}

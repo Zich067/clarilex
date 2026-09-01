@@ -1,0 +1,68 @@
+{
+  "method": "deterministic citation-existence check vs 2429-article law corpus; 三分類:具體且真實 / 具體但不存在(真捏造) / 未指明具體條號(籠統)",
+  "n_real_articles": 2429,
+  "by_mode": {
+    "baseline": {
+      "n_cited": 72,
+      "specific_and_real": 65,
+      "specific_but_nonexistent": 0,
+      "vague_unlocatable": 7,
+      "fabrication_rate_strict": 0.0,
+      "specific_real_rate": 0.9028,
+      "unlocatable_rate": 0.0972,
+      "specific_but_nonexistent_examples": [],
+      "vague_examples": [
+        {
+          "gold_id": "G003",
+          "raw": "民法有關債之消滅（相抵）與違約金、損害賠償之基本原則（相關規定，例：民法債編一般規定）"
+        },
+        {
+          "gold_id": "G010",
+          "raw": "民法關於租賃之相關規定（債編租賃章）"
+        },
+        {
+          "gold_id": "G013",
+          "raw": "民法關於買賣之一般規定（買賣契約、交付與所有權移轉相關條文）"
+        },
+        {
+          "gold_id": "G013",
+          "raw": "民法關於給付不能及債務不履行之規定（債之給付、不能、催告、解除、損害賠償）"
+        },
+        {
+          "gold_id": "G013",
+          "raw": "民法關於擔保權（質權、抵押）及留置之規定"
+        },
+        {
+          "gold_id": "G013",
+          "raw": "相關於所有權保留、公示贓物或第三人效力之民法原則條文"
+        },
+        {
+          "gold_id": "G015",
+          "raw": "民法關於買賣契約之一般規定（債之成立與履行、契約效力）"
+        }
+      ]
+    },
+    "rag": {
+      "n_cited": 60,
+      "specific_and_real": 60,
+      "specific_but_nonexistent": 0,
+      "vague_unlocatable": 0,
+      "fabrication_rate_strict": 0.0,
+      "specific_real_rate": 1.0,
+      "unlocatable_rate": 0.0,
+      "specific_but_nonexistent_examples": [],
+      "vague_examples": []
+    },
+    "triangulation": {
+      "n_cited": 57,
+      "specific_and_real": 57,
+      "specific_but_nonexistent": 0,
+      "vague_unlocatable": 0,
+      "fabrication_rate_strict": 0.0,
+      "specific_real_rate": 1.0,
+      "unlocatable_rate": 0.0,
+      "specific_but_nonexistent_examples": [],
+      "vague_examples": []
+    }
+  }
+}

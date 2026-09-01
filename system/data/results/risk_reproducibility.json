@@ -1,0 +1,619 @@
+{
+  "n": 100,
+  "model": "gpt-5-mini",
+  "observed_agreement": 0.61,
+  "cohen_kappa": 0.396,
+  "author_dist": {
+    "high": 38,
+    "medium": 42,
+    "low": 20
+  },
+  "model_dist": {
+    "medium": 38,
+    "low": 23,
+    "high": 39
+  },
+  "note": "獨立模型依同一判準重判風險等級 vs 作者標註之重現性(單一標註者信度替代,非專家驗證)",
+  "per_item": [
+    {
+      "id": "G001",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G002",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G003",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G004",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G005",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G006",
+      "author": "low",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G007",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G008",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G009",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G010",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G011",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G012",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G013",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G014",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G015",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G016",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G017",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G018",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G019",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G020",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G021",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G022",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G023",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G024",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G025",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G026",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G027",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G028",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G029",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G030",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G031",
+      "author": "low",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G032",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G033",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G034",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G035",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G036",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G037",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G038",
+      "author": "low",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G039",
+      "author": "high",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G040",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G041",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G042",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G043",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G044",
+      "author": "low",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G045",
+      "author": "low",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G046",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G047",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G048",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G049",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G050",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G051",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G052",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G053",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G054",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G055",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G056",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G057",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G058",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G059",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G060",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G061",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G062",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G063",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G064",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G065",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G066",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G067",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G068",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G069",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G070",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G071",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G072",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G073",
+      "author": "low",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G074",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G075",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G076",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G077",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G078",
+      "author": "low",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G079",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G080",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G081",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G082",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G083",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G084",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G085",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G086",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    },
+    {
+      "id": "G087",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G088",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G089",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G090",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G091",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G092",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G093",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G094",
+      "author": "medium",
+      "llm": "medium",
+      "agree": true
+    },
+    {
+      "id": "G095",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G096",
+      "author": "medium",
+      "llm": "high",
+      "agree": false
+    },
+    {
+      "id": "G097",
+      "author": "high",
+      "llm": "high",
+      "agree": true
+    },
+    {
+      "id": "G098",
+      "author": "high",
+      "llm": "medium",
+      "agree": false
+    },
+    {
+      "id": "G099",
+      "author": "medium",
+      "llm": "low",
+      "agree": false
+    },
+    {
+      "id": "G100",
+      "author": "low",
+      "llm": "low",
+      "agree": true
+    }
+  ]
+}
